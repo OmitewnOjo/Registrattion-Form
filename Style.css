@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+ font-family: 'Times New Roman', Times, serif;
   background-color: #f9f9f9;
   color: #ffffff;
   font-weight: bold;
@@ -9,10 +9,16 @@ body {
 h1 {
 
   text-align:center;
+  font-family: 'Times New Roman', Times, serif;
 }
 
+h1:hover
+
+{
+  color: #35063e;
+}
 form {
-  max-width: 450;
+  max-width: 500px;
   margin: 40px auto;
   padding: 20px;
   border-radius: 15px;
@@ -25,17 +31,17 @@ label {
 
 label span {
   display: inline-block;
-  width: 100px;
+  width: 200px;
   text-align: right;
   margin-right: 10px;
 }
 
 input[type="text"], input[type="email"], input[type="password"], input[type="date"], select {
-  width: 80%;
+  width: 100%;
   height: 40px;
   margin-bottom: 20px;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid hsl(236, 93%, 23%);
   border-radius: 10px;
 }
 
@@ -72,6 +78,6 @@ input[type="submit"] {
 
 
 input[type="submit"]:hover {
-  background-color: #18002e;
+  background-color: #35063e;
   color: #000000;
 }
