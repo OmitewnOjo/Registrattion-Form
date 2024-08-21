@@ -7,12 +7,12 @@ body {
 }
 
 h1 {
-  
-  text-align: center;
+
+  text-align:center;
 }
 
 form {
-  max-width: 450px;
+  max-width: 450;
   margin: 40px auto;
   padding: 20px;
   border-radius: 15px;
